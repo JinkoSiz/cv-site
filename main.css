@@ -1,0 +1,192 @@
+
+
+body {
+	font-family: roboto-st, sans-serif;
+	font-size: 16px;
+	line-height: 1.65;
+	color: var(--text);
+    justify-content: space-around;
+	position: relative;
+	overflow-x: hidden;
+    background: url(images/Back1.jpg) no-repeat;
+    margin: 0 auto;
+    display: block;
+    background-size:120%;
+}
+
+.accent {
+	color: var(--accent);
+	font-weight: bold;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+table {
+    position: relative;
+    top: 50px;
+    border-collapse: collapse;
+    width: 400px; 
+    border: 3px solid black; 
+    margin: auto; 
+}
+
+td {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+#square {
+    position: relative;
+    top: 20px;
+    left: 36%;
+    width: fit-content;
+    height: 31em;
+    border: 1px solid white;
+    background-color: black;
+    margin: 0;
+}   
+
+#links {
+    align-self: center;
+    padding-top: 0.7em;
+    padding-left: 7em;    
+}
+
+#info {
+    position: relative;
+    top: 2em;
+    width: 25em;
+    border-top: 1px solid white;
+}
+
+#circle {
+    position: relative;
+    top: 4%;
+    left: 28%;
+    background: url(images/Myself.png);
+    background-size: 100%;
+    border-radius: 50%;
+    height: 11em;
+    width: 11em;
+    opacity: 1;
+}
+
+.main {
+    text-align: center;
+    position: relative;
+    top: 1em;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    position: relative;
+    top: 1em;
+    font-size: 22px;
+    color: white;
+}
+
+@media screen and ( max-width: 320px) {
+    
+    body {
+        background: url(images/Back1.jpg) no-repeat;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        background-size:370%;
+    }
+
+    #square {
+        scale: 0.7;
+        position: absolute;
+        left: 0px;
+        width: fit-content;
+        height: 31em;
+        border: 1px solid white;
+        background-color: black;
+        max-width: 320px;
+    }   
+    
+    #links {
+        align-self: center;
+        padding-top: 0.7em;
+        padding-left: 7em;   
+        max-width: 320px; 
+    }
+
+    #info {
+        position: relative;
+        top: 2em;
+        width: 25em;
+        border-top: 1px solid white;
+        max-width: 320px;
+    }
+
+    #circle {
+        position: relative;
+        top: 4%;
+        left: 28%;
+        background: url(images/Myself.png);
+        background-size: 100%;
+        border-radius: 50%;
+        height: 11em;
+        width: 11em;
+        opacity: 1;
+        max-width: 320px;
+    }
+}
+
+@media screen and ( min-width: 330px) and (max-width: 420px) {
+    
+    body {
+        background: url(images/Back1.jpg) no-repeat;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        background-size:370%;
+    }
+
+    #square {
+        scale: 0.7;
+        position: absolute;
+        left: 0px;
+        width: fit-content;
+        height: 31em;
+        border: 1px solid white;
+        background-color: black;
+        max-width: 420px;
+    }   
+    
+    #links {
+        align-self: center;
+        padding-top: 0.7em;
+        padding-left: 7em;   
+        max-width: 420px; 
+    }
+
+    #info {
+        position: relative;
+        top: 2em;
+        width: 25em;
+        border-top: 1px solid white;
+        max-width: 420px;
+    }
+
+    #circle {
+        position: relative;
+        top: 4%;
+        left: 28%;
+        background: url(images/Myself.png);
+        background-size: 100%;
+        border-radius: 50%;
+        height: 11em;
+        width: 11em;
+        opacity: 1;
+        max-width: 420px;
+    }
+}
